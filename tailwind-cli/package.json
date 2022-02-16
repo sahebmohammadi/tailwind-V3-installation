@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/build/tailwind.css --watch",
+    "prod": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/build/tailwind.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
